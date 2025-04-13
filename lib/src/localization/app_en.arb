@@ -1,6 +1,5 @@
 {
-  "appTitle": "personal_lib",
-  "@appTitle": {
-    "description": "The title of the application"
-  }
+  "@@locale": "en",
+  "app_title": "Librery App",
+  "description": "Your personal library"
 }

@@ -14,6 +14,7 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+  intl: any
 
 dev_dependencies:
   flutter_test:
@@ -30,3 +31,34 @@ flutter:
   assets:
     # Add assets from the images directory to the application.
     - assets/images/
+  
+  fonts:
+    - family: Cheltenham
+      fonts:
+        - asset: assets/fonts/cheltenham/cheltenham-normal-400.ttf
+        - asset: assets/fonts/cheltenham/cheltenham-normal-700.ttf
+          weight: 700
+    - family: Cheltenham Cond
+      fonts:
+        - asset: assets/fonts/cheltenham/cheltenham-cond-normal-500.ttf
+        - asset: assets/fonts/cheltenham/cheltenham-cond-normal-700.ttf
+          weight: 700
+    - family: Cheltenham Wide
+      fonts:
+        - asset: assets/fonts/cheltenham/cheltenham-wide-normal-400.ttf
+    - family: Franklin
+      fonts:
+        - asset: assets/fonts/franklin/franklin-normal-500.ttf
+        - asset: assets/fonts/franklin/franklin-normal-700.ttf
+          weight: 700
+    - family: Franklin Cw
+      fonts:
+        - asset: assets/fonts/franklin/franklin-cword-normal-500.ttf
+    - family: Imperial
+      fonts:
+        - asset: assets/fonts/imperial/imperial-normal-500.ttf
+        - asset: assets/fonts/imperial/imperial-normal-700.ttf
+          weight: 700
+
+    
+        
