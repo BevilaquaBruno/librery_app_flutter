@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:personal_lib/src/styles/styles.dart';
 
 /// The Widget that configures your application.
 class IntroPage extends StatelessWidget {
@@ -9,20 +10,10 @@ class IntroPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Localizations.override(
-          context: context,
-          locale: const Locale('pt'),
-          child: Builder(
-            builder: (context) {
-              // A toy example for an internationalized Material widget.
-              return Text(
-                AppLocalizations.of(context)!.description,
-                style: TextStyle(color: Colors.red),
-              );
-            },
-          ),
-        ),
-      ),
+          child: Text(
+        AppLocalizations.of(context)!.description,
+        style: LibreryStyles.MenuTitle,
+      )),
     );
   }
 }
