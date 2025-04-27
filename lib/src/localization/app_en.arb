@@ -1,5 +1,6 @@
 {
   "@@locale": "en",
   "app_title": "Librery App",
-  "description": "Your personal library"
+  "description": "Your personal library",
+  "start": "Start"
 }

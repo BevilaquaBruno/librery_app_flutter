@@ -59,6 +59,3 @@ flutter:
         - asset: assets/fonts/imperial/imperial-normal-500.ttf
         - asset: assets/fonts/imperial/imperial-normal-700.ttf
           weight: 700
-
-    
-        
